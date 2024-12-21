@@ -1,0 +1,3 @@
+# Ignore Python cache directories in the src folder
+src/__pycache__/
+src/**/*.pyc
