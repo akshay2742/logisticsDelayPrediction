@@ -93,3 +93,34 @@ curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json"
   "traffic": "Moderate"
 }'
 ```
+
+### Request Body
+
+The request should contain the following fields:
+
+- `origin`: Origin city (string)
+
+- `destination`: Destination city (string)
+
+- `vehicle_type`: Type of vehicle (string)
+
+- `distance`: Distance in kilometers (float)
+
+- `weather`: Weather conditions (string)
+
+- `traffic`: Traffic conditions (string)
+
+### Response
+
+The API will return a JSON response with the prediction and probability:
+
+```
+{
+    "delay_predicted": "Yes",
+    "probability": 0.85
+}
+```
+
+## Conclusion
+
+This project demonstrates the ability to handle data, build a classification model, and deploy it as an API. The documentation provides a clear guide for setting up and using the system effectively.
