@@ -72,11 +72,24 @@ The server will start at http://127.0.0.1:8000.
 
 You can make predictions by sending a POST request to the `/predict` endpoint with the shipment details in JSON format. Here’s an example using `curl`:
 
+```json
+{
+  "origin": "Mumbai",
+  "destination": "Delhi",
+  "vehicle_type": "Truck",
+  "distance": 1400.0,
+  "weather": "Clear",
+  "traffic": "Moderate"
+}
+```
+
+```bash
 curl -X POST "http://127.0.0.1:8000/predict" -H "Content-Type: application/json" -d '{
-"origin": "Mumbai",
-"destination": "Delhi",
-"vehicle_type": "Truck",
-"distance": 1400.0,
-"weather": "Clear",
-"traffic": "Moderate"
+  "origin": "Mumbai",
+  "destination": "Delhi",
+  "vehicle_type": "Truck",
+  "distance": 1400.0,
+  "weather": "Clear",
+  "traffic": "Moderate"
 }'
+```
