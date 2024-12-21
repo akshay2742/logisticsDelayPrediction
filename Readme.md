@@ -36,15 +36,17 @@ logistics_delay_prediction/
 ### Installation
 
 1. **Clone the repository**:
-   git clone <repository-url>
-   cd logistics_delay_prediction
+
+   - git clone <repository-url>
+   - cd logistics_delay_prediction
 
 2. **Install required packages**:
-   pip install -r requirements.txt
+
+   - pip install -r requirements.txt
 
 3. **Download the dataset**:
 
-   Ensure that the dataset `shipment_data.xlsx` is placed in the `data/` directory.
+   - Ensure that the dataset `shipment_data.xlsx` is placed in the `data/` directory.
 
 ## Data Preparation & Exploration
 
