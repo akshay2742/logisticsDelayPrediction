@@ -37,7 +37,7 @@ logistics_delay_prediction/
 
 1. **Clone the repository**:
 
-   - git clone <repository-url>
+   - git clone https://github.com/akshay2742/logisticsDelayPrediction.git
    - cd logistics_delay_prediction
 
 2. **Install required packages**:
